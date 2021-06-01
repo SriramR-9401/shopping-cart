@@ -1,0 +1,31 @@
+.margin-t {
+	margin-top: 65px;
+}
+.extra-m {
+	margin-top: 80px;
+}
+@media (max-width: 320px) {
+	.cardstyle {
+		width: 200px;
+	}
+}
+@media (min-width: 320px) and (max-width: 500px) {
+	.cardstyle {
+		width: 230px;
+	}
+}
+@media (min-width: 500px) and (max-width: 650px) {
+	.cardstyle {
+		width: 200px;
+	}
+}
+@media (min-width: 650px) and (max-width: 800px) {
+	.cardstyle {
+		width: 220px;
+	}
+}
+@media (min-width: 800px) {
+	.cardstyle {
+		width: 280px;
+	}
+}
